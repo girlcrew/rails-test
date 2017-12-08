@@ -1,0 +1,8 @@
+Edit
+<%= form_for @post do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %> </br>
+  <%= f.label :content%>
+  <%= f.text_area :content %></br>
+  <%= f.submit "Edit" %>
+<% end %>
